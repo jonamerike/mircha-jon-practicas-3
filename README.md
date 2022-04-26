@@ -29,3 +29,12 @@ git add .
 git commit -m "Mensaje del cambio"
 git push
 ```
+
+## Comandos para revisar status e historial de cambios
+
+```bash
+git status
+git log
+git log --oneline
+git log --oneline --graph
+```
