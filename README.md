@@ -14,9 +14,18 @@ code .
 
 ```bash
 git init
+git config --local user.email tu@correo.com
 git add .
-git commit -m "first commit"
+git commit -m "Mensaje del cambio"
 git branch -M main
-git remote add origin https://github.com/jonamerike/mircha-jon-practicas-3.git
+git remote add origin https://github.com/usuario/repositorio.git
 git push -u origin main
+```
+
+## Flujo básico de un cambio
+
+```bash
+git add .
+git commit -m "Mensaje del cambio"
+git push
 ```
