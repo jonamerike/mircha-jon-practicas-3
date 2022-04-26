@@ -38,3 +38,9 @@ git log
 git log --oneline
 git log --oneline --graph
 ```
+
+## Comandos para descargar cambios del remoto
+
+```bash
+git pull
+```
